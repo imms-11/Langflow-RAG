@@ -1,3 +1,7 @@
+### RAG를 활용한 스타트업 법률 상담 챗봇
+- langflow 활용
+
+
 ### 사전 필요사항
 
 - docker
@@ -51,9 +55,14 @@ services:
 
 ### flow import
 
-/flow/OpenAI 창업 TEXT Loader.json 
+1. /flow/OpenAI 창업 TEXT Loader.json 
 ![Text Loader](./tutorial/text_loader.png)
 
-/flow/OpenAI 창업 LLM(동작확인).json
+1. /flow/OpenAI 창업 LLM(동작확인).json
 ![Text Loader](./tutorial/text_loader.png)
+
+
+### 창업 정보 QnA
+
+- qna/qna.txt 파일을 TEXT loader에 입력
 
